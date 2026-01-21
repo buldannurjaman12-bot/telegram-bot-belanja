@@ -10,8 +10,8 @@ from telegram.ext import (
 )
 
 # ENV dari Railway
-BOT_TOKEN = os.getenv("8034370178:AAG8v-USbfjdlWwmKmlPxWPWdRAaRle3Y1w")
-SCRIPT_URL = os.getenv("https://script.google.com/macros/s/AKfycbwYV8iRFOiEGtvN2otPvfDn7LrQHp3jeeF5u2twODyFVkV1Yfi-NuuM7JePR_Qy2II6/exec")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+SCRIPT_URL = os.getenv("SCRIPT_URL")
 
 
 # ===== COMMAND /start =====
@@ -87,3 +87,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
